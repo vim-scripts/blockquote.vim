@@ -1,0 +1,24 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=529
+
+Example:
+,----[ title ]-
+| some text
+`----
+
+Without title:
+,----
+| some text
+`----
+
+Usage:
+  Blockquote a range (default: current line)
+  :<range>Bq [title]
+  Blockquote a file
+  :Bqf {filename}
+  Blockquote a file, starting at line {start}
+  :Bqf {filename} {start}
+  Blockquote a file, starting at line {start} and ending at {end}
+  :Bqf {filename} {start} {end}
+  Remove a blockquote, starting at <range> (default: current line)
+  :<range>UBq
+
